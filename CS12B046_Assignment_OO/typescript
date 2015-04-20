@@ -1,0 +1,723 @@
+Script started on Wed 04 Feb 2015 05:37:42 AM IST
+]0;codehub@codehub: ~/Desktop/cafecodehub@codehub:~/Desktop/cafe$ make [K
+gcc -o simulation cafe.c
+]0;codehub@codehub: ~/Desktop/cafecodehub@codehub:~/Desktop/cafe$ make run
+./simulation
+=========================
+####  #### #### ####
+#     #  # #    #
+#     #### #### ####
+#     #  # #    #
+####  #  # #    ####
+=========================
+============ATTENDENCE============
+Employee 0 is PRESENT
+Employee 1 is ABSENT
+Employee 2 is PRESENT
+Employee 3 is PRESENT
+Employee 4 is PRESENT
+Employee 5 is PRESENT
+Employee 6 is PRESENT
+Employee 7 is PRESENT
+Employee 8 is PRESENT
+Employee 9 is PRESENT
+==================================
+Total 9 are present
+Lets start working..
+PIZZAS:
+XXXX	230
+YYYY	120
+ZZZZ	340
+CAKES:
+AAAA	300
+BBBB	170
+CCCC	390
+COLD COFFEES:
+DDDD	528
+EEEE	143
+FFFF	347
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 10
+PIZZA YYYY       : 10
+PIZZA ZZZZ       : 10
+CAKE AAAA        : 10
+CAKE BBBB        : 10
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 10
+COLD COFFEE EEEE : 10
+COLD COFFEE FFFF : 10
+==========================
+===========BILL===========
+Token No:- 1 Table No:-1
+CAKE BBBB :170
+Total Price :- 170
+Waiting time:-5
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 10
+PIZZA YYYY       : 10
+PIZZA ZZZZ       : 10
+CAKE AAAA        : 10
+CAKE BBBB        : 9
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 10
+COLD COFFEE EEEE : 10
+COLD COFFEE FFFF : 10
+==========================
+===========BILL===========
+Token No:- 2 Table No:-2
+PIZZA YYYY :120
+Total Price :- 120
+Waiting time:-12
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 10
+PIZZA YYYY       : 9
+PIZZA ZZZZ       : 10
+CAKE AAAA        : 10
+CAKE BBBB        : 9
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 10
+COLD COFFEE EEEE : 10
+COLD COFFEE FFFF : 10
+==========================
+===========BILL===========
+Token No:- 3 Table No:-3
+COLD COFFEE EEEE :143
+Total Price :- 143
+Waiting time:-17
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 10
+PIZZA YYYY       : 9
+PIZZA ZZZZ       : 10
+CAKE AAAA        : 10
+CAKE BBBB        : 9
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 10
+COLD COFFEE EEEE : 9
+COLD COFFEE FFFF : 10
+==========================
+===========BILL===========
+Token No:- 4 Table No:-4
+CAKE AAAA :300
+Total Price :- 300
+Waiting time:-9
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 10
+PIZZA YYYY       : 9
+PIZZA ZZZZ       : 10
+CAKE AAAA        : 9
+CAKE BBBB        : 9
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 10
+COLD COFFEE EEEE : 9
+COLD COFFEE FFFF : 10
+==========================
+===========BILL===========
+Token No:- 5 Table No:-5
+PIZZA YYYY :120
+Total Price :- 120
+Waiting time:-12
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 10
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 10
+CAKE AAAA        : 9
+CAKE BBBB        : 9
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 10
+COLD COFFEE EEEE : 9
+COLD COFFEE FFFF : 10
+==========================
+===========BILL===========
+Token No:- 6 Table No:-6
+COLD COFFEE EEEE :143
+Total Price :- 143
+Waiting time:-17
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 10
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 10
+CAKE AAAA        : 9
+CAKE BBBB        : 9
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 10
+COLD COFFEE EEEE : 8
+COLD COFFEE FFFF : 10
+==========================
+===========BILL===========
+Token No:- 7 Table No:-7
+COLD COFFEE EEEE :143
+Total Price :- 143
+Waiting time:-17
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 10
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 10
+CAKE AAAA        : 9
+CAKE BBBB        : 9
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 10
+COLD COFFEE EEEE : 7
+COLD COFFEE FFFF : 10
+==========================
+===========BILL===========
+Token No:- 8 Table No:-8
+COLD COFFEE EEEE :143
+Total Price :- 143
+Waiting time:-17
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 10
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 10
+CAKE AAAA        : 9
+CAKE BBBB        : 9
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 10
+COLD COFFEE EEEE : 6
+COLD COFFEE FFFF : 10
+==========================
+===========BILL===========
+Token No:- 9 Table No:-9
+PIZZA XXXX :230
+Total Price :- 230
+Waiting time:-15
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 9
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 10
+CAKE AAAA        : 9
+CAKE BBBB        : 9
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 10
+COLD COFFEE EEEE : 6
+COLD COFFEE FFFF : 10
+==========================
+===========BILL===========
+Token No:- 10 Table No:-10
+CAKE BBBB :170
+Total Price :- 170
+Waiting time:-5
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 9
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 10
+CAKE AAAA        : 9
+CAKE BBBB        : 8
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 10
+COLD COFFEE EEEE : 6
+COLD COFFEE FFFF : 10
+==========================
+===========BILL===========
+Token No:- 11 Table No:-11
+COLD COFFEE FFFF :347
+Total Price :- 347
+Waiting time:-23
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 9
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 10
+CAKE AAAA        : 9
+CAKE BBBB        : 8
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 10
+COLD COFFEE EEEE : 6
+COLD COFFEE FFFF : 9
+==========================
+===========BILL===========
+Token No:- 12 Table No:-12
+PIZZA XXXX :230
+Total Price :- 230
+Waiting time:-15
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 8
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 10
+CAKE AAAA        : 9
+CAKE BBBB        : 8
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 10
+COLD COFFEE EEEE : 6
+COLD COFFEE FFFF : 9
+==========================
+===========BILL===========
+Token No:- 13 Table No:-13
+COLD COFFEE FFFF :347
+Total Price :- 347
+Waiting time:-23
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 8
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 10
+CAKE AAAA        : 9
+CAKE BBBB        : 8
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 10
+COLD COFFEE EEEE : 6
+COLD COFFEE FFFF : 8
+==========================
+===========BILL===========
+Token No:- 14 Table No:-14
+COLD COFFEE EEEE :143
+Total Price :- 143
+Waiting time:-17
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 8
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 10
+CAKE AAAA        : 9
+CAKE BBBB        : 8
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 10
+COLD COFFEE EEEE : 5
+COLD COFFEE FFFF : 8
+==========================
+===========BILL===========
+Token No:- 15 Table No:-15
+CAKE BBBB :170
+Total Price :- 170
+Waiting time:-5
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 8
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 10
+CAKE AAAA        : 9
+CAKE BBBB        : 7
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 10
+COLD COFFEE EEEE : 5
+COLD COFFEE FFFF : 8
+==========================
+===========BILL===========
+Token No:- 16 Table No:-16
+COLD COFFEE DDDD :528
+Total Price :- 528
+Waiting time:-22
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 8
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 10
+CAKE AAAA        : 9
+CAKE BBBB        : 7
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 9
+COLD COFFEE EEEE : 5
+COLD COFFEE FFFF : 8
+==========================
+===========BILL===========
+Token No:- 17 Table No:-17
+PIZZA XXXX :230
+Total Price :- 230
+Waiting time:-15
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 7
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 10
+CAKE AAAA        : 9
+CAKE BBBB        : 7
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 9
+COLD COFFEE EEEE : 5
+COLD COFFEE FFFF : 8
+==========================
+===========BILL===========
+Token No:- 18 Table No:-18
+COLD COFFEE DDDD :528
+Total Price :- 528
+Waiting time:-22
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 7
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 10
+CAKE AAAA        : 9
+CAKE BBBB        : 7
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 8
+COLD COFFEE EEEE : 5
+COLD COFFEE FFFF : 8
+==========================
+===========BILL===========
+Token No:- 19 Table No:-19
+CAKE BBBB :170
+Total Price :- 170
+Waiting time:-5
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 7
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 10
+CAKE AAAA        : 9
+CAKE BBBB        : 6
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 8
+COLD COFFEE EEEE : 5
+COLD COFFEE FFFF : 8
+==========================
+===========BILL===========
+Token No:- 20 Table No:-20
+CAKE BBBB :170
+Total Price :- 170
+Waiting time:-5
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 7
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 10
+CAKE AAAA        : 9
+CAKE BBBB        : 5
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 8
+COLD COFFEE EEEE : 5
+COLD COFFEE FFFF : 8
+==========================
+===========BILL===========
+Token No:- 21 Table No:-21
+PIZZA XXXX :230
+Total Price :- 230
+Waiting time:-15
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 6
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 10
+CAKE AAAA        : 9
+CAKE BBBB        : 5
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 8
+COLD COFFEE EEEE : 5
+COLD COFFEE FFFF : 8
+==========================
+===========BILL===========
+Token No:- 22 Table No:-22
+PIZZA ZZZZ :340
+Total Price :- 340
+Waiting time:-11
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 6
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 9
+CAKE AAAA        : 9
+CAKE BBBB        : 5
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 8
+COLD COFFEE EEEE : 5
+COLD COFFEE FFFF : 8
+==========================
+===========BILL===========
+Token No:- 23 Table No:-23
+COLD COFFEE EEEE :143
+Total Price :- 143
+Waiting time:-17
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 6
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 9
+CAKE AAAA        : 9
+CAKE BBBB        : 5
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 8
+COLD COFFEE EEEE : 4
+COLD COFFEE FFFF : 8
+==========================
+===========BILL===========
+Token No:- 24 Table No:-24
+COLD COFFEE FFFF :347
+Total Price :- 347
+Waiting time:-23
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 6
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 9
+CAKE AAAA        : 9
+CAKE BBBB        : 5
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 8
+COLD COFFEE EEEE : 4
+COLD COFFEE FFFF : 7
+==========================
+===========BILL===========
+Token No:- 25 Table No:-25
+COLD COFFEE DDDD :528
+Total Price :- 528
+Waiting time:-22
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 6
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 9
+CAKE AAAA        : 9
+CAKE BBBB        : 5
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 7
+COLD COFFEE EEEE : 4
+COLD COFFEE FFFF : 7
+==========================
+===========BILL===========
+Token No:- 26 Table No:-1
+COLD COFFEE EEEE :143
+Total Price :- 143
+Waiting time:-17
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 6
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 9
+CAKE AAAA        : 9
+CAKE BBBB        : 5
+CAKE CCCC        : 10
+COLD COFFEE DDDD : 7
+COLD COFFEE EEEE : 3
+COLD COFFEE FFFF : 7
+==========================
+===========BILL===========
+Token No:- 27 Table No:-2
+CAKE CCCC :390
+Total Price :- 390
+Waiting time:-4
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 6
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 9
+CAKE AAAA        : 9
+CAKE BBBB        : 5
+CAKE CCCC        : 9
+COLD COFFEE DDDD : 7
+COLD COFFEE EEEE : 3
+COLD COFFEE FFFF : 7
+==========================
+===========BILL===========
+Token No:- 28 Table No:-3
+COLD COFFEE DDDD :528
+Total Price :- 528
+Waiting time:-22
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 6
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 9
+CAKE AAAA        : 9
+CAKE BBBB        : 5
+CAKE CCCC        : 9
+COLD COFFEE DDDD : 6
+COLD COFFEE EEEE : 3
+COLD COFFEE FFFF : 7
+==========================
+===========BILL===========
+Token No:- 29 Table No:-4
+COLD COFFEE FFFF :347
+Total Price :- 347
+Waiting time:-23
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 6
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 9
+CAKE AAAA        : 9
+CAKE BBBB        : 5
+CAKE CCCC        : 9
+COLD COFFEE DDDD : 6
+COLD COFFEE EEEE : 3
+COLD COFFEE FFFF : 6
+==========================
+===========BILL===========
+Token No:- 30 Table No:-5
+CAKE BBBB :170
+Total Price :- 170
+Waiting time:-5
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 6
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 9
+CAKE AAAA        : 9
+CAKE BBBB        : 4
+CAKE CCCC        : 9
+COLD COFFEE DDDD : 6
+COLD COFFEE EEEE : 3
+COLD COFFEE FFFF : 6
+==========================
+===========BILL===========
+Token No:- 31 Table No:-6
+PIZZA XXXX :230
+Total Price :- 230
+Waiting time:-15
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 5
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 9
+CAKE AAAA        : 9
+CAKE BBBB        : 4
+CAKE CCCC        : 9
+COLD COFFEE DDDD : 6
+COLD COFFEE EEEE : 3
+COLD COFFEE FFFF : 6
+==========================
+===========BILL===========
+Token No:- 32 Table No:-7
+COLD COFFEE DDDD :528
+Total Price :- 528
+Waiting time:-22
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 5
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 9
+CAKE AAAA        : 9
+CAKE BBBB        : 4
+CAKE CCCC        : 9
+COLD COFFEE DDDD : 5
+COLD COFFEE EEEE : 3
+COLD COFFEE FFFF : 6
+==========================
+===========BILL===========
+Token No:- 33 Table No:-8
+COLD COFFEE FFFF :347
+Total Price :- 347
+Waiting time:-23
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 5
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 9
+CAKE AAAA        : 9
+CAKE BBBB        : 4
+CAKE CCCC        : 9
+COLD COFFEE DDDD : 5
+COLD COFFEE EEEE : 3
+COLD COFFEE FFFF : 5
+==========================
+===========BILL===========
+Token No:- 34 Table No:-9
+CAKE AAAA :300
+Total Price :- 300
+Waiting time:-9
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 5
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 9
+CAKE AAAA        : 8
+CAKE BBBB        : 4
+CAKE CCCC        : 9
+COLD COFFEE DDDD : 5
+COLD COFFEE EEEE : 3
+COLD COFFEE FFFF : 5
+==========================
+===========BILL===========
+Token No:- 35 Table No:-10
+CAKE CCCC :390
+Total Price :- 390
+Waiting time:-4
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 5
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 9
+CAKE AAAA        : 8
+CAKE BBBB        : 4
+CAKE CCCC        : 8
+COLD COFFEE DDDD : 5
+COLD COFFEE EEEE : 3
+COLD COFFEE FFFF : 5
+==========================
+===========BILL===========
+Token No:- 36 Table No:-11
+PIZZA XXXX :230
+Total Price :- 230
+Waiting time:-15
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 4
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 9
+CAKE AAAA        : 8
+CAKE BBBB        : 4
+CAKE CCCC        : 8
+COLD COFFEE DDDD : 5
+COLD COFFEE EEEE : 3
+COLD COFFEE FFFF : 5
+==========================
+===========BILL===========
+Token No:- 37 Table No:-12
+PIZZA XXXX :230
+Total Price :- 230
+Waiting time:-15
+==========================
+===========MENU===========
+ITEM             : TOTAL REM.
+PIZZA XXXX       : 3
+PIZZA YYYY       : 8
+PIZZA ZZZZ       : 9
+CAKE AAAA        : 8
+CAKE BBBB        : 4
+CAKE CCCC        : 8
+COLD COFFEE DDDD : 5
+COLD COFFEE EEEE : 3
+COLD COFFEE FFFF : 5
+==========================
+^Cmake: *** [run] Interrupt
+
+]0;codehub@codehub: ~/Desktop/cafecodehub@codehub:~/Desktop/cafe$ 
+]0;codehub@codehub: ~/Desktop/cafecodehub@codehub:~/Desktop/cafe$ exit
+exit
+
+Script done on Wed 04 Feb 2015 05:39:55 AM IST
